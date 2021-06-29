@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini website</title>
+    <link rel="stylesheet" href="miniproject.css">
+</head>
+<body>
+    <body>
+        <div class="container">
+            <header>
+                  <h1>Website Title</h1>
+                  <p>Website slogan included here.</p>
+        <nav class="site-nav">
+                            <ul class="group">
+                                  <li><a href="#">Home</a></li>
+                                  <li><a href="#">About</a></li>
+                                  
+                                  <li><a href="#">Contact Us</a></li>
+                                  <div class="dropdown">
+                                    <li><a href="#">GENRES</a></li>
+                                      <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                      <a href="gamingmusic.html">GAMING MUSIC</a>
+                                      <a href="edmmusic.html">EDM</a>
+                                      <a href="rockmusic.html">ROCK MUSIC</a>
+                                      <a href="chillmusic.html">CHILL MUSIC</a>
+                                      <a href="workoutmusic.html">WORKOUT MUSIC</a>
+                                      <a href="rapmusic.html">RAP MUSIC</a>
+                                    </div>
+                                  </div> 
+                            </ul>
+                      </nav>
+            </header>
+            <div class="content-area group">
+        <div class="main-area">
+                       <br>
+                       <br>
+                  </div>
+        
+                  
+        
+                  <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 5</div>
+                      <img src="image/music.jpg" style="width:60%">
+                      <div class="text"></div>
+                    </div>
+                    
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 5</div>
+                      <img src="image/music1.jpg" style="width:60%">
+                      <div class="text"></div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 5</div>
+                      <img src="image/music2.jpg" style="width:60%">
+                      <div class="text"></div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="image/music3.jpg" style="width:60%">
+                        <div class="text"></div>
+                      </div>
+
+                      <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="image/music4.jpg" style="width:60%">
+                        <div class="text"></div>
+                      </div>
+
+                      <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="image/music5.jpg" style="width:60%">
+                        <div class="text"></div>
+                      </div>
+                    
+                      
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:justify">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                      <span class="dot" onclick="currentSlide(4)"></span> 
+                      <span class="dot" onclick="currentSlide(5)"></span> 
+                      <span class="dot" onclick="currentSlide(6)"></span>
+                    </div>
+                    <script>
+                        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+                        </script>
+                    
+                      
+                     
+                    
+                 
+                </div>
+                <p>Lorem ipsum dolor sit amet consecteturhv adipisicing elit. Quo, dolorem. Temporibus necessitatibus, voluptates quos ea beatae veritatis tempora accusantium consectetur<br> tenetur ab optio sunt, voluptatibus in tempore est, expedita veniam? This is the main the main area (or column). Lorem ipsum dolor sit amet,.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+        </div>
+        
+        <footer>
+                  <p>&copy; 2021 CREATED BY SHASHANKH</p>
+            </footer>
+        </div>   
+</body>
+</html>
