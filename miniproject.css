@@ -19,8 +19,8 @@ html {
   
   .container {
     width: 940px;
-    margin-left: auto;
-    margin-right: auto;
+    
+    
     height: 1450px;
     background-color: rgb(22, 124, 155); 
     background-image: linear-gradient(rgb(0, 26, 255), rgb(255, 0, 242), rgb(128, 0, 38));
@@ -178,7 +178,7 @@ html {
             cursor: pointer;
             height: 15px;
             width: 15px;
-            margin: 0 6px;
+            margin: 0 60px;
             background-color: #bbb;
             border-radius: 50%;
             display: inline-block;
