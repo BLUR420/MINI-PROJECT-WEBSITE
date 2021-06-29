@@ -12,19 +12,23 @@ html {
     height: auto;
   }
   
+  
 
   
   .container {
     width: 940px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FFF;
+    height: 1450px;
+    background-color: rgb(22, 124, 155); 
+    background-image: linear-gradient(rgb(0, 26, 255), rgb(255, 0, 242), rgb(128, 0, 38));
+    
     padding-left: 40px;
     padding-right: 40px;
     box-sizing: border-box;
   }	header {
     padding-top: 20px;
-    color: #617140;
+    color: #ffffff;
   }
   
   header h1 {
@@ -54,6 +58,10 @@ html {
   }
   
   .site-nav a {
+    position: relative;
+    width: 425px;
+   
+    border: 3px solid red;
     display: block;
     color: #000000;
     text-decoration: none;
