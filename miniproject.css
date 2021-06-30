@@ -95,7 +95,7 @@ html {
   footer {
     text-align: center;
     font-size: 85%;
-    color: #999;
+    color: rgb(255, 255, 255);
     padding-bottom: 20px;
     padding-top: 20px;
   }
@@ -140,7 +140,7 @@ html {
           /* Slideshow container */
           .slideshow-container {
             max-width: 1000px;
-            position: relative;
+            position:relative;
             margin: auto;
           }
           
