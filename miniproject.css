@@ -18,7 +18,7 @@ html {
 
   
   .container {
-    width: 940px;
+    width: 1360px;
     
     
     height: 1450px;
@@ -61,7 +61,7 @@ html {
   
   .site-nav a {
     position: relative;
-    width: 425px;
+    width: 635px;
    
     border: 3px solid red;
     display: block;
